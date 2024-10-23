@@ -1,0 +1,15 @@
+{
+  "tuples": [
+    {
+      "user": "user:anne",
+      "relation": "owner",
+      "object": "document:budget"
+    },
+    {
+      "user": "user:beth",
+      "relation": "viewer",
+      "object": "document:budget"
+    }
+  ]
+}
+
