@@ -49,12 +49,16 @@ type_definitions:
             - this: {}
             - computedUserset:
                 relation: "assignee"
+            - computedUserset:
+                relation: "owner"
             - tupleToUserset:
                 computedUserset:
                   relation: "viewer"
                 tupleset:
                   relation: "parent"
       assignee:
+        this: {}
+      owner:
         this: {}
       parent:
         this: {}
@@ -64,6 +68,9 @@ type_definitions:
           directly_related_user_types:
             - type: "user"
         assignee:
+          directly_related_user_types:
+            - type: "user"
+        owner:
           directly_related_user_types:
             - type: "user"
         parent:
