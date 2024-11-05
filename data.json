@@ -1,15 +1,75 @@
 {
-  "tuples": [
-    {
-      "user": "user:anne",
-      "relation": "owner",
-      "object": "document:budget"
-    },
-    {
-      "user": "user:beth",
-      "relation": "viewer",
-      "object": "document:budget"
-    }
-  ]
-}
-
+    "tuples": [
+      {
+        "user": "user:anne",
+        "relation": "owner",
+        "object": "document:budget"
+      },
+      {
+        "user": "user:beth",
+        "relation": "viewer",
+        "object": "document:budget"
+      },
+      {
+        "user": "user:charles",
+        "relation": "owner",
+        "object": "project:alpha"
+      },
+      {
+        "user": "user:david",
+        "relation": "editor",
+        "object": "project:alpha"
+      },
+      {
+        "user": "user:emily",
+        "relation": "viewer",
+        "object": "project:alpha"
+      },
+      {
+        "user": "user:frank",
+        "relation": "owner",
+        "object": "task:write-report"
+      },
+      {
+        "user": "user:george",
+        "relation": "assignee",
+        "object": "task:write-report"
+      },
+      {
+        "user": "user:frank",
+        "relation": "viewer",
+        "object": "task:write-report"
+      },
+      {
+        "user": "user:anne",
+        "relation": "viewer",
+        "object": "task:write-report"
+      },
+      {
+        "user": "user:harry",
+        "relation": "member",
+        "object": "team:devops"
+      },
+      {
+        "user": "user:charles",
+        "relation": "member",
+        "object": "team:devops"
+      },
+      {
+        "user": "user:david",
+        "relation": "viewer",
+        "object": "document:requirements"
+      },
+      {
+        "user": "user:harry",
+        "relation": "viewer",
+        "object": "document:requirements"
+      },
+      {
+        "user": "user:emily",
+        "relation": "owner",
+        "object": "document:requirements"
+      }
+    ]
+  }
+  
