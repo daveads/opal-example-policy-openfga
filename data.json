@@ -69,7 +69,11 @@
         "user": "user:emily",
         "relation": "owner",
         "object": "document:requirements"
+      },
+	  {
+        "user": "user:isabel",
+        "relation": "owner",
+        "object": "project:beta"
       }
     ]
   }
-  
